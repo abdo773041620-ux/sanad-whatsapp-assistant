@@ -1,0 +1,22 @@
+={{ ({
+  query: $fromAI(
+    'query',
+    'عبارة بحث دقيقة مرتبطة بسؤال المستخدم. يمكن توجيهها إلى مصدر مناسب من المصادر المسموحة باستخدام site: دون البحث خارجها.',
+    'string'
+  ),
+  topic: 'general',
+  search_depth: 'basic',
+  max_results: 3,
+  include_domains: [
+    'dawa.center',
+    'islamic-content.com',
+    'quranpedia.net',
+    'dorar.net',
+    'shamela.ws'
+  ],
+  include_domains_mode: 'restrict',
+  include_answer: false,
+  include_raw_content: true,
+  include_images: false,
+  auto_parameters: false
+}) }}

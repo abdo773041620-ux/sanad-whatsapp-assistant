@@ -1,0 +1,9 @@
+Search the approved Islamic sources for evidence relevant to
+the user's question. Use this tool before providing religious
+information. Only the search query is configurable by the agent;
+the permitted domains are fixed.
+
+Results may contain URLs, snippets, and raw_content.
+A snippet alone is not sufficient evidence. Use relevant
+raw_content with its source URL, and abstain when the retrieved
+page text is unavailable or insufficient.
